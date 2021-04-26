@@ -1,0 +1,124 @@
+div {
+    display: block;
+}
+.top_banner {
+    border-radius: 0;
+    background-color: rgb(226, 226, 221);
+    margin: 0em;
+    padding: 0em;
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 2;
+}
+    
+.top_banner p {
+    margin-bottom: 0;
+}
+  
+.right {
+    position:absolute;
+    right:0;
+    top: 0;
+    text-align: right;
+    margin-top: 1.5em;
+    margin-right: 1em;
+}
+
+.left {
+  position: relative;
+  left: 0;
+  top: 0;
+  text-align: left;
+}
+
+.left h1:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.container #title .right {
+  position:absolute;
+  margin-top: 4em;
+}
+
+.container #title .left {
+  display: flex;
+  overflow: hidden;
+}
+
+.container #title .left h1 {
+  display: flex;
+}
+
+.container #title .left span {    
+  display: flex;
+  margin-top: 2.25em;
+}
+
+.container #title {
+  padding-top: 0.3em;
+}
+
+.container {
+    margin-top: 2.5em;
+    padding-left: 2em;
+    padding-right: 2em;
+}
+
+#show_panel {
+  margin-top: 1em;
+}
+
+.row {
+  width: 100%;
+  display: flex;
+  margin-bottom: 2em;
+}
+
+.cell {
+  display:block;
+  margin-right: 1.5em;
+  width: 18%;
+}
+
+.cell h2:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.cell dl dt {
+    font-weight: bolder;
+}
+
+.cell dl dd {
+    margin-left: 0em;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+
+.pull-right {
+  padding-right:15px;
+  padding-left:0;
+  text-align:right;
+  border-right:5px solid #eee;
+  border-left:0
+}
+
+.dl-horizontal dt {
+    float:left;
+    width:160px;
+    overflow:hidden;
+    clear:left;
+    text-align:right;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    font-weight: bolder;
+    
+}
+
+.dl-horizontal dd {
+    margin-left:180px
+}
